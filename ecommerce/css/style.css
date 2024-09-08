@@ -6,6 +6,14 @@ h1 span {
     color: #037bc0;
 }
 
-h2 span {
-    color: green;
+nav a {
+    text-transform: uppercase;
+}
+
+.navegacion a {
+    text-transform: lowercase;
+}
+
+#navegacion a {
+    text-transform: capitalize;
 }
