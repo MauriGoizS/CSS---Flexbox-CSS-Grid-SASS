@@ -1,19 +1,18 @@
-h1 {
-    color: #000
+
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
 }
 
-h1 span {
+.nombre-sitio {
+    margin: 50px 0;
+}
+
+.nombre-sitio span {
     color: #037bc0;
 }
 
-nav a {
-    text-transform: uppercase;
-}
+/* Box Model */
 
-.navegacion a {
-    text-transform: lowercase;
-}
-
-#navegacion a {
-    text-transform: capitalize;
-}
