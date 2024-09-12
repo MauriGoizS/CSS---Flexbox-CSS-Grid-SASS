@@ -18,6 +18,10 @@ a {
     margin: 0 auto;
 }
 
+img {
+    width: 100%;
+}
+
 /* Header y Navegación */
 .nombre-sitio {
     margin: 50px 0;
@@ -45,3 +49,9 @@ a {
     height: 550px;
 }
 
+/* Categorias */
+.listado-categorias {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+} 
