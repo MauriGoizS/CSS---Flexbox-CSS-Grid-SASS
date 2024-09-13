@@ -44,6 +44,21 @@ img {
     display: block;
 }
 
+.btn {
+    background-color: #8cbc00;
+    color: #ffffff;
+    display: block;
+    text-transform: uppercase;
+    font-weight: 900;
+    padding: 1rem;
+    transition: background-color .3s ease-out;
+}
+
+.btn:hover {
+    background-color: #769c02; 
+}
+
+
 /* Utilidades */
 .text-center {
     text-align: center;
@@ -135,12 +150,13 @@ img {
 .texto-producto {
     text-align: center;
     color:#ffffff;
+    padding: 2rem;
 }
 
 .texto-producto h3{
     margin: 0;
 }
-.texto-producto {
+.texto-producto p{
     margin: 0 0 .5rem 0;
 }
 
