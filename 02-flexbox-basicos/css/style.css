@@ -125,3 +125,13 @@ h1, h2 {
     justify-content: flex-start;
     align-items: end;
 }
+
+/* 8 */
+.d-flex-8 {
+    display: flex;
+    
+}
+.d-flex-8 .box{
+    flex-basis: 100px;
+    
+}
