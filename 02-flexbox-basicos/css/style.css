@@ -182,3 +182,13 @@ h1, h2 {
 .d-flex-12 .box:nth-child(3) {
     flex-shrink: 2;
 }
+
+
+/* 13 */
+.d-flex-13 {
+    display: flex;
+}
+
+.d-flex-13 .box {
+    flex: 1 0 33.3%; 
+}
