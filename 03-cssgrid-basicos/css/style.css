@@ -189,4 +189,10 @@ h1, h2 {
 }
 
 /* 11 */
+.grid-11 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    height: 30rem;
+}
+
 /* 12 */
