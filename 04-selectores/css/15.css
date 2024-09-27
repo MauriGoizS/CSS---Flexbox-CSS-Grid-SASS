@@ -1,0 +1,6 @@
+.primer-letra::first-letter {
+    font-size: 10rem;
+}
+.primer-letra::first-line {
+    font-size: 10rem;
+}
