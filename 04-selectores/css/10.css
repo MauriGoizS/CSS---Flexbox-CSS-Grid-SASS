@@ -1,0 +1,15 @@
+/* a[href="http://www.google.com"] {
+    color: red;
+} */
+
+/* a[href^="http"] {
+    color: red;
+} */
+
+/* a[href$=".com"] {
+    color: red;
+} */
+
+input[type="tel"] {
+    border: .5rem solid red
+}
