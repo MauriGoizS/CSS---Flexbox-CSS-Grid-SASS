@@ -117,3 +117,38 @@ img {
     font-size: 6rem;
     font-weight: 900;
 }
+
+/* iconos */
+.iconos {
+    margin: var(--separacion);
+}
+@media ( min-width: 768px ) { 
+    .iconos {
+        display: flex;
+        gap: 2rem;        
+    }
+}
+
+.icono{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: calc( var(--separacion) / 2 );
+}
+.icono:last-child {
+    margin: 0;
+}
+@media ( min-width: 768px ) { 
+    .icono {
+        margin: 0;
+    }
+}
+.icono img {
+    width: 5rem;
+}
+.icono h3 {
+    color: var(--primario);
+    text-align: center;
+    text-transform: uppercase;
+    margin-top: calc( var(--separacion) / 2 );
+}
