@@ -156,15 +156,31 @@ img {
 
 /* Sobre TechPRO */
 .sobre-tech {
-    background-image: linear-gradient( to bottom, transparent 50%, var(--primario) 0% ), url(../img/imagen-mujer.jpg);
     background-position: right;
     background-repeat: repeat, no-repeat;
     background-size: 100%, 110rem;
 }
+.notavif.notwebp .sobre-tech {
+    background-image: linear-gradient( to bottom, transparent 50%, var(--primario) 0% ), url(../img/imagen-mujer.jpg);
+}
+.webp .sobre-tech {
+    background-image: linear-gradient( to bottom, transparent 50%, var(--primario) 0% ), url(../img/imagen-mujer.webp);
+}
+.avif .sobre-tech {
+    background-image: linear-gradient( to bottom, transparent 50%, var(--primario) 0% ), url(../img/imagen-mujer.avif);
+}
 @media ( min-width: 768px ) { 
     .sobre-tech {
-        background-image: linear-gradient( to left, transparent 50%, var(--primario) 0% ), url(../img/imagen-mujer.jpg);
         background-repeat: repeat, no-repeat;
+    }
+    .notavif.notwebp .sobre-tech {
+        background-image: linear-gradient( to left, transparent 50%, var(--primario) 0% ), url(../img/imagen-mujer.jpg);
+    }
+    .webp .sobre-tech {
+        background-image: linear-gradient( to left, transparent 50%, var(--primario) 0% ), url(../img/imagen-mujer.webp);
+    }
+    .avif .sobre-tech {
+        background-image: linear-gradient( to left, transparent 50%, var(--primario) 0% ), url(../img/imagen-mujer.avif);
     }
 }
 @media ( min-width: 1600px ) { 
@@ -303,17 +319,33 @@ img {
 /* Newletter */
 
 .newsletter {
-    background-image: linear-gradient( to bottom, transparent 50%, var(--blanco) 0% ), url(../img/newsletter.jpg);
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 100%, 70rem;
 }
+.notavif.notwebp .newsletter{
+    background-image: linear-gradient( to bottom, transparent 50%, var(--blanco) 0% ), url(../img/newsletter.jpg);
+}
+.webp .newsletter {
+    background-image: linear-gradient( to bottom, transparent 50%, var(--blanco) 0% ), url(../img/newsletter.webp);
+}
+.avif .newsletter {
+    background-image: linear-gradient( to bottom, transparent 50%, var(--blanco) 0% ), url(../img/newsletter.avif);
+}
 @media ( min-width: 768px ) { 
     .newsletter{
-        background-image: linear-gradient( to right, transparent 50%, var(--blanco) 0% ), url(../img/newsletter.jpg);
         background-position: center, -20rem 0rem;
         background-size: 100%, 100rem;
         padding: 10rem 0;
+    }
+    .notavif.notwebp .newsletter {
+        background-image: linear-gradient( to right, transparent 50%, var(--blanco) 0% ), url(../img/newsletter.jpg);
+    }
+    .webp .newsletter {
+        background-image: linear-gradient( to right, transparent 50%, var(--blanco) 0% ), url(../img/newsletter.webp);
+    }
+    .avif .newsletter{
+        background-image: linear-gradient( to right, transparent 50%, var(--blanco) 0% ), url(../img/newsletter.avif);
     }
 }
 @media ( min-width: 2100px ) { 
@@ -345,11 +377,11 @@ img {
 }
 
 .formulario input[type="text"]{
-    width: 100%;
+    width: 50rem;
     padding: 1rem;
 }
 .formulario input[type="submit"]{
-    width: 100%;
+    width: 52.5rem;
     padding: 2rem;
     background-color: var(--primario);
     color: var(--blanco);
