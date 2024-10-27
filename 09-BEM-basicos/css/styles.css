@@ -128,6 +128,10 @@ img {
     color: green;
     margin: 0;
 }
+.producto__precio--oferta {
+    color: red;
+    text-decoration: line-through;
+}
 
 .producto__boton {
     all: unset;
