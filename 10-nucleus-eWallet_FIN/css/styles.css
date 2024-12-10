@@ -36,9 +36,9 @@ img {
 a{
     text-decoration: none;
 }
-.mask {
+/* .mask {
     overflow: hidden;
-}
+} */
 [class$="__contenedor"] {
     max-width: 120rem;
     margin: 0 auto;
@@ -196,7 +196,8 @@ a{
 
 /* Seguridad */
 
-.seguridad {
+/* ----Diagonales Metodo 1---- */
+/* .seguridad {
     background-color: var(--primario);
     padding: 10rem 0;
     transform: rotate(3deg)  scale(1.5);
@@ -206,10 +207,37 @@ a{
     .seguridad {        
         margin: 35rem 0;
     }
-}
+} */
 
-.seguridad__contenedor {
+/* .seguridad__contenedor {
     transform: rotate(-3deg) scale(.75);
+} */
+
+/* ----Diagonales Metodo 2---- */
+.seguridad {
+    background-color: var(--primario);
+    padding: 20rem 0;
+    position: relative;
+    margin: 10rem 0;
+    overflow: hidden;
+}
+.seguridad::before,
+.seguridad::after {
+    background-color: var(--blanco);
+    content: '';
+    height: 20rem;
+    width: 130%;
+    position: absolute;
+}
+.seguridad::before {
+    top: -10rem;
+    left: 0;
+    transform: rotate(3deg);
+}
+.seguridad::after {
+    bottom: -10rem;
+    left: 0;
+    transform: rotate(3deg);
 }
 
 .seguridad__heading {    
