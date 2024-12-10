@@ -302,3 +302,63 @@ a{
         text-align: left;
     }
 }
+
+/* Testimonios */
+.testimoniales {
+    background-color: var(--primario);
+    padding: 5rem 0;
+}
+
+.testimoniales__heading {
+    color: var(--blanco);
+}
+
+.testimoniales__grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 4rem;
+}
+
+@media ( min-width: 768px ) { 
+    .testimoniales__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.testimonial {
+    box-shadow: 0px 0px 15px 3px rgb(0 0 0 / .15);
+    background-color: var(--blanco);
+    padding: 2rem;
+    margin-bottom: 3rem;
+    position: relative;
+}
+.testimonial:last-child {
+    margin-bottom: 0;
+}
+@media ( min-width: 768px ) { 
+    .testimonial {
+        margin-bottom: 0;
+    }
+}
+
+.testimonial__texto {
+    padding-left: 4rem;
+}
+.testimonial__texto::before{
+    content: '';
+    background-image: url(../img/comilla.png);
+    background-repeat: no-repeat;
+    background-size: 3rem;
+    background-position: center;
+    width: 3rem;
+    height: 3rem;
+    display: block;
+    position: absolute;
+    top: 3.5rem;
+    left: 2rem;
+}
+.testimonial__autor {
+    text-align: right;
+    color: var(--primario);
+    font-weight: 700;
+}
