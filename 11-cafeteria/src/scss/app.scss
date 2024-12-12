@@ -1,4 +1,6 @@
 @use 'header/header';
+@use 'header/navegacion';
+
 
 $color : blue;
 $color2 : green;
@@ -7,3 +9,7 @@ body {
     background-color: $color;    
 }
 
+div {
+    display: grid;
+    grid-template-columns: 3rem;
+}
