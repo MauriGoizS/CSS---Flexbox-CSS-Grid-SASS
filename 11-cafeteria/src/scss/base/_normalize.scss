@@ -8,7 +8,7 @@
  * 2. Prevent adjustments of font size after orientation changes in iOS.
  */
 
-html {
+ html {
     line-height: 1.15;
     /* 1 */
     -webkit-text-size-adjust: 100%;
@@ -215,7 +215,11 @@ button,
 [type="reset"],
 [type="submit"] {
     -webkit-appearance: button;
+    /* Compatibilidad con WebKit */
+    appearance: button;
+    /* Propiedad estándar */
 }
+
 
 /**
    * Remove the inner border and padding in Firefox.
@@ -315,9 +319,11 @@ textarea {
 
 [type="search"] {
     -webkit-appearance: textfield;
-    /* 1 */
+    /* Compatibilidad con navegadores WebKit */
+    appearance: textfield;
+    /* Propiedad estándar */
     outline-offset: -2px;
-    /* 2 */
+    /* Ajuste de margen del borde */
 }
 
 /**
