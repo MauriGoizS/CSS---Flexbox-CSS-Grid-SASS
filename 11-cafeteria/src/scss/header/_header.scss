@@ -5,15 +5,7 @@
     padding: 5rem 0;
     position: relative;
 
-    @include m.telefono {
-        padding: 4rem 0;
-    }
-    @include m.tablet {
-        padding: 3rem 0;
-    }
-    @include m.desktop {
-        padding: 2rem 0;
-    }
+    
 
     &::before {
         content: '';

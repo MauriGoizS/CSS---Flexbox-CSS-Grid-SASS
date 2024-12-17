@@ -14,6 +14,6 @@
 
 @mixin desktop {
     @media ( min-width: v.$desktop ) {
-        @content;
+        @content; 
     }
 }
